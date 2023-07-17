@@ -1,5 +1,23 @@
-/* font-family: 'Outfit', sans-serif; */
-h1 {
-  color: red;
-  font-family: "Outfit", sans-serif;
+
+:root {
+--primary-Soft-blue:hsl(215, 51%, 70%);
+--primary-Cyan:Cyan: hsl(178, 100%, 50%);
+/* Nuetral */
+--very-dark-blue-MainBG:hsl(217, 54%, 11%);
+--very-dark-blue-CardBG:hsl(216, 50%, 16%);
+--very-dark-blue-Line:hsl(215, 32%, 27%);
+--white: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:'Outfit', sans-serif ;
 }
