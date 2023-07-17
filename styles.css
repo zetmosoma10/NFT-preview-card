@@ -31,7 +31,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
 }
 
 h1,
@@ -41,6 +41,7 @@ h3 {
 }
 
 h1 {
+  font-size: 2.4rem;
   margin-top: 2.3rem;
   margin-bottom: 1.2rem;
 }
@@ -69,6 +70,13 @@ h1 {
   width: 33px;
   height: 33px;
   margin-right: 1.7rem;
+  border-radius: 100%;
+  border: 1px solid var(--white);
+}
+
+.card__content-profile-text {
+  margin: 0;
+  font-size: 1.4rem;
 }
 
 .card__content-time {
@@ -76,10 +84,26 @@ h1 {
   justify-content: space-between;
   border-bottom: 1px solid var(--primary-Soft-blue);
   padding: 1.6rem 0;
+  margin-bottom: 1.5rem;
 }
 
 .card__content-text {
   margin: 0;
+}
+
+.card__content-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.card__content-time-frame {
+  display: flex;
+  align-items: center;
+}
+
+.card__content-time-days {
+  margin-left: 0.8rem;
+  font-size: 1.4rem;
 }
 
 .card__content-ico-name {
